@@ -6,6 +6,7 @@ KlasaGlowna::KlasaGlowna(QWidget *parent) :
     ui(new Ui::KlasaGlowna)
 {
     ui->setupUi(this);
+    ui->pushButton->setText("EXIT");
 }
 
 KlasaGlowna::~KlasaGlowna()
